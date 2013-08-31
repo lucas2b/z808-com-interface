@@ -11,7 +11,7 @@ package z808;
 public class registradores {
     
     //registradores de uso geral
-    private short ax; 
+    public static short ax; 
     private short dx;
     private short si; //indice usado para endereçamento indireto
     private short ip; //struction pointer - contem o apontamento da próxima instrução

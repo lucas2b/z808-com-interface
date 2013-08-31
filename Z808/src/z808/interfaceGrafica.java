@@ -210,6 +210,7 @@ public class interfaceGrafica extends javax.swing.JFrame {
     private void jButton4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton4ActionPerformed
         // TODO add your handling code here:
         textArea2.setText("Passo a Passo ainda nao foi implementado!");
+        textAx.setText(""+registradores.ax);
     }//GEN-LAST:event_jButton4ActionPerformed
 
     private void textArea2TextValueChanged(java.awt.event.TextEvent evt) {//GEN-FIRST:event_textArea2TextValueChanged
