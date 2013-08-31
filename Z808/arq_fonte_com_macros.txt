@@ -1,0 +1,42 @@
+soma macro m1 m2
+mov ax m1
+add 2 ax
+add ax m2
+sub m1 m2
+endm
+subtrair macro c1 c2
+mov ax m1
+add ax m2
+sub m1 m2
+endm
+dividir macro b1
+mov ax b1
+add ax b1
+sub b1 b1
+endm
+inicio
+add AX AX
+sub ax 12
+mul ax
+div dx
+or ax ax
+and dx ax
+soma ax ax
+xor ax ax
+dividir 10
+not ax
+jmp 42
+je 2
+subtrair ax dx
+jnz ax
+jz dx
+jp ax
+mov ax dx
+hlt
+dado1 dw 13
+dado2 dw -12
+dado3 dw 0
+dado4 dw 1
+dado5 dw 9999
+dado6 dw -500
+fim
