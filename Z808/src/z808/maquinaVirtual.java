@@ -358,7 +358,7 @@ public class maquinaVirtual {
             System.out.println("Valor de AX: "+ registradores.getAx());
             System.out.println("Valor de DX: "+ registradores.getDx());
             System.out.println("Valor de SI: "+ registradores.getSi());
-            
+            textAx.setText(registradores.getAx());
             short valorAX = registradores.getAx();
             short valorDX = registradores.getDx();
             
